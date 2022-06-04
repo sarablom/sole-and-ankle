@@ -23,12 +23,12 @@ const SuperHeader = () => {
 };
 
 const Wrapper = styled.div`
-  font-size: 0.875rem;
-  color: ${COLORS.gray[300]};
-  background-color: ${COLORS.gray[900]};
   display: flex;
   align-items: center;
   padding: 2px 32px;
+  font-size: 0.875rem;
+  color: ${COLORS.gray[300]};
+  background-color: ${COLORS.gray[900]};
 `;
 
 const MarketingMessage = styled.span`
@@ -40,7 +40,7 @@ const HelpLink = styled.a`
   color: inherit;
   text-decoration: none;
   outline-offset: 2px;
-  padding: 10px 34px;
+  padding: 10px 24px;
 
   &:not(:focus-visible) {
     outline: none;
