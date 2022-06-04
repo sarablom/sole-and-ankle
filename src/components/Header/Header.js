@@ -37,7 +37,9 @@ const MainHeader = styled.div`
   border-bottom: 1px solid ${COLORS.gray[300]};
 `;
 
-const Nav = styled.nav``;
+const Nav = styled.nav`
+  margin: 0 48px;
+`;
 
 const Side = styled.div`
   flex: 1;

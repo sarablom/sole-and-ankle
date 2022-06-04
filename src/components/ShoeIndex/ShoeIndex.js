@@ -44,19 +44,21 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
+  align-items: baseline;
 `;
 
 const LeftColumn = styled.div`
-  width: 30vw;
+  min-width: 240px;
 `;
 
 const MainColumn = styled.div`
-  width: 70vw;
+  flex: 1;
 `;
 
 const Header = styled.header`
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 `;
 
 const Title = styled.h2`
